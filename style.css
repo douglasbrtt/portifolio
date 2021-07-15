@@ -326,6 +326,7 @@ section{
 .sessao-contato{
     width: 100%;
     height: 100vh;
+    padding: 2rem 0;
     background-color: #272727;
     display: flex;
     align-items: center;
