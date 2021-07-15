@@ -23,7 +23,7 @@ function atualizarPreço(){
    if (temJS) preco *= 1.1
    if (incluiLayout) preco += 500
    let taxaUrgencia = 1 - prazo*0.1;
-   preco += 1 + taxaUrgencia
+   preco *= 1 + taxaUrgencia
 
    document.querySelector("#preco").innerHTML = `R$ ${preco.toFixed(2)}`
 }
