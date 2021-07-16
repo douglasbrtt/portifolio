@@ -497,17 +497,12 @@ section{
     transform: scale(1.2);
 }
 
-.btn-orcamento{
-    text-transform: uppercase;
-    padding: 1rem;
-    cursor: pointer;
-    border-radius: 10px;
-    background: #11998e;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border: none;
-    box-shadow: 0 .1rem .8rem rgba(0, 0, 0, .4);
-    grid-column: 2;
+#preco{
+    width: 20%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 60px 10px 30px;
 }
 
 footer{
